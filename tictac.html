@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>XO-BASIC-GAME</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="info">
+        <p>Player1 : <span id="player1_text">None</span></p>
+        <p id="versus">เจอกับ</p>
+        <p>Player2 : <span id="player2_text">None</span></p>
+    </div>
+
+    <div class="container" id="main">
+        <span id="infotext">Play This Game</span>
+        <!-- show X or O on div click -->
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+        <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div>
+    </div>
+    <!-- Play Again And Reset All Info -->
+    <button onclick="restartgame()">เริ่มเกมส์รอบใหม่?</button>
+    <button onclick="changeplayer()">เปลี่ยนผู้เล่น</button>
+
+    <div class="footer">
+        <p>Made by Thiti Mahawannakit 60090500410 , Thank for Visiting , And feel free to leak into my code</p>
+    </div>
+
+    <script src="./scripted.js"></script>
+
+</body>
+
+</html>
